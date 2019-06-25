@@ -1,14 +1,15 @@
-Student's Final Grade
+Capitalization and Mutability
 
-https://www.codewars.com/kata/5ad0d8356165e63c140014d4
+https://www.codewars.com/kata/595970246c9b8fa0a8000086
 
 ```javascript
 
 
-function finalGrade (exam, projects) {
-if (exam > 90 || projects > 10) return 100;
-if (exam > 75 && projects >= 5) return 90;
-if (exam > 50 && projects >= 2) return 75;
-  else return 0; // final grade
+function capitalizeWord(word) {
+  let newWord = word[0].toUpperCase();
+  for (i = 1; i < word.length; i++){
+  newWord += word[i];
+  }
+  return newWord;
 }
 ```
