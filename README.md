@@ -13,3 +13,13 @@ function capitalizeWord(word) {
   return newWord;
 }
 ```
+Count the Monkeys!
+https://www.codewars.com/kata/count-the-monkeys/javascript
+```javascript
+function monkeyCount(n) {
+let arr = [];
+for (let i =1; i <= n; i++){
+arr.push(i);
+}return arr;// your code here
+}
+```
