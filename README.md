@@ -24,7 +24,7 @@ arr.push(i);
 }
 ```
 
-Switch it Up!
+= Switch it Up! =
 https://www.codewars.com/kata/switch-it-up/train/javascript
 ```javascript
 function switchItUp(number) {
@@ -41,5 +41,6 @@ function switchItUp(number) {
     case 9: return 'Nine';
   }
 }
+
 
 ```
