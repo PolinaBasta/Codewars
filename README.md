@@ -42,5 +42,16 @@ function switchItUp(number) {
   }
 }
 
+Get list sum recursively - 7 kyu
+https://www.codewars.com/kata/57a84137cf1fa5f9f80000d6
+```javascript
+function sumR(x) {
+  if (x.length === 0) {
+    return 0;
+  }
+  return x[0] + sumR(x.slice(1));
+}
+```
+
 
 ```
